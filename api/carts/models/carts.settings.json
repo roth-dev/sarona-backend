@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "carts",
   "info": {
-    "name": "products",
-    "description": ""
+    "name": "carts"
   },
   "options": {
     "increments": true,
@@ -12,15 +11,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "productId": {
       "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "text"
-    },
-    "quantity": {
-      "type": "integer"
+      "required": false
     }
   }
 }
